@@ -18,7 +18,7 @@ int soustraction(int a, int b)
 	return resultat;
 }
 
-int multiplication(int a, int b);
+int multiplication(int a, int b)
 {
 	int resultat;
 	
@@ -27,11 +27,20 @@ int multiplication(int a, int b);
 	return resultat;
 }
 
-int division(int a, int b);
+int division(int a, int b)
 {
 	int resultat;
 	
 	resultat = a / b;
+	
+	return resultat;
+}
+
+int exposant(int a, int b)
+{
+	int resultat;
+	
+	resultat = a ^ b;
 	
 	return resultat;
 }
