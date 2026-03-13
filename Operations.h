@@ -10,4 +10,4 @@ int exposant(int nb, int exp);
 
 int factoriel(int nb);
 
-double calculerDistance(double x1, double y1, double x2, double y2);
+int nombrepremier(int nb);
