@@ -8,4 +8,6 @@ int division(int a, int b);
 
 int exposant(int nb, int exp);
 
- int factoriel(int nb)
+int factoriel(int nb);
+
+double calculerDistance(double x1, double y1, double x2, double y2);
