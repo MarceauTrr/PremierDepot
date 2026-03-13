@@ -41,6 +41,7 @@ int factoriel(int nb) {
         return 1; 
     }
     return nb * factoriel(nb - 1); 
+}
 =======
 
 int exposant(int a, int b)
